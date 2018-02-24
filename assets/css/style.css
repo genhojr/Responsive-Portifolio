@@ -187,18 +187,18 @@ footer {
 }
 
 #contact-form ul {
-    margin-bottom; 20px;
+    margin-bottom: 20px;
 }
 
 #contact-form li {
-    margin-bottom; 10px;
+    margin-bottom: 10px;
 }
 
 label,
 input[type=text],
 input[type=email],
 textarea{
-    display; block;
+    display: block;
     width: 100%;
 }
 
@@ -221,4 +221,74 @@ input[type=submit] {
     font-size: 18px;
     padding: 10px 30px;
     cursor: pointer;
+}
+
+@media screen and (max-width: 980px) {
+           
+    
+
+    .auth-image {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+
+    .work img {
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    
+    .main-section {
+        width: 100%;
+    }
+
+    .auth-image {
+        width: auto;
+        float: left;
+    }
+
+    .sidebar {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+  
+}
+
+@media screen and (max-width: 640px) {
+   
+    .auth-image {
+        width: 100%;
+    }
+
+    header {
+        position: static;
+    }
+
+    #logo {
+        width: 100%;
+    }
+
+    nav {
+        float: none;
+        display: inline-block;
+        margin-bottom: 25px;
+        margin: 0 auto;
+        font-size: 15px;
+        
+    }
+
+    .main-section {
+        margin-top: 70px;
+    }
+
+    nav a {
+        margin-left: 50px;
+        display: inline-block;
+        border-left: 1px solid #efefef;
+        padding-left: 50px;
+        line-height: 18px;
+        font-size: 15px;
+    }
 }
